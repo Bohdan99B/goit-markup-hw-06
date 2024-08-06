@@ -21,6 +21,7 @@ a {
 .header-nav {}
 
 .logo {
+    font-family: "Raleway", sans-serif;
     font-weight: 700;
         font-size: 18px;
         line-height: 1.17;
@@ -40,7 +41,7 @@ a {
 }
 
 .nav-link:hover,
-.nav-link:focus
+.nav-link:focus,
 .address-link:hover,
 .address-link:focus {
     color: #404bbf;
