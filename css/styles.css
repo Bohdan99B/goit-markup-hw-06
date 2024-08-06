@@ -12,6 +12,11 @@ ul {
 a {
     text-decoration: none;
 }
+
+h2 {
+    font-weight: 500;
+}
+
 .header {}
 
 .header-logo .logo-span {
@@ -86,7 +91,7 @@ a {
 
 .hero-title {
     font-size: 56px;
-    line-height: 1.07143;
+    line-height: 1.07;
     letter-spacing: 0.02em;
     text-align: center;
     color: #fff;
@@ -96,11 +101,18 @@ a {
     box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
     border-radius: 4px;
     padding: 16px 32px;
+    font-weight: 500;
     width: 169px;
     height: 56px;
     background: #4d5ae5;
     color: #ffffff;
     cursor: pointer;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+}
+.btn:hover,
+.btn:focus {
+    background-color: #404BBF;
 }
 
 .section-work {}
