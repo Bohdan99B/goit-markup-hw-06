@@ -13,10 +13,6 @@ a {
     text-decoration: none;
 }
 
-h2 {
-    font-weight: 500;
-}
-
 .header {}
 
 .header-logo .logo-span {
@@ -117,7 +113,13 @@ h2 {
 
 .section-work {}
 
-.section-work-title {}
+.section-work-title {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+}
 
 .section-work-list {}
 
@@ -126,15 +128,41 @@ h2 {
     height: 104px;
 }
 
-.section-team {}
-
-.section-team-title {
-        line-height: 1.11111;
-        letter-spacing: 0.02em;
-        text-align: center;
+.work-text {
+    line-height: 1.5;
+    letter-spacing: 0.02em;
 }
 
-.section-team-list {}
+.section-team {
+    background-color: #F4F4FD;
+}
+
+.section-team-title {
+        line-height: 1.11;
+        letter-spacing: 0.02em;
+        text-align: center;
+        font-size: 36px;
+        text-transform: capitalize;
+        color: #2e2f42;
+}
+
+.team-title {
+font-weight: 500;
+font-size: 20px;
+line-height: 1.2;
+letter-spacing: 0.02em;
+color: #2e2f42;
+}
+
+.team-text {
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+}
+
+.section-team-list {
+     background-color: #FFFFFF;
+}
 
 .section-team-li {
     border-radius: 0 0 4px 4px;
@@ -146,14 +174,30 @@ h2 {
 .section-prt {}
 
 .section-prt-title {
-    line-height: 1.11111;
+    line-height: 1.11;
         letter-spacing: 0.02em;
         text-align: center;
+        font-size: 36px;
+        text-transform: capitalize;
+        color: #2e2f42;
 }
 
 .section-prt-list {}
 
 .section-prt-li {}
+
+.prt-title {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+}
+
+.prt-text {
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
 
 .footer {
     background: #2e2f42;
