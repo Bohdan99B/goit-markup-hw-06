@@ -38,7 +38,7 @@ a {
         font-size: 16px;
         line-height: 1.5;
         letter-spacing: 0.02em;
-        color: #2e2f42;
+        color: #434455;
 }
 
 .nav-link:hover,
@@ -121,6 +121,14 @@ a {
     color: #2e2f42;
 }
 
+.work-title {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+}
+
 .section-work-list {}
 
 .section-work-li {
@@ -160,15 +168,14 @@ line-height: 1.5;
 letter-spacing: 0.02em;
 }
 
-.section-team-list {
-     background-color: #FFFFFF;
-}
+.section-team-list {}
 
 .section-team-li {
     border-radius: 0 0 4px 4px;
         padding: 0px 0px 32px 0px;
         width: 264px;
         height: 380px;
+        background-color: #FFFFFF;
 }
 
 .section-prt {}
