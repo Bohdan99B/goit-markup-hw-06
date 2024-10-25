@@ -270,8 +270,10 @@ h1, h2, h3, h4, h5, h6, p {
 
 .footer {
   background: #2e2f42;
+  padding: 100px 0;
 }
 .footer-text {
+    max-width: 264px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #f4f4fd;
@@ -279,4 +281,9 @@ h1, h2, h3, h4, h5, h6, p {
 
 .footer-logo .logo-span {
   color: #f4f4fd;
+}
+
+.footer-logo {
+  display: inline-block;
+  margin-bottom: 16px;
 }
