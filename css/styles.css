@@ -46,6 +46,7 @@ h1, h2, h3, h4, h5, h6, p {
 }
 
 .img {
+    display: block;
 }
 
 .header-nav {
@@ -130,6 +131,9 @@ h1, h2, h3, h4, h5, h6, p {
 }
 
 .hero-title {
+  margin: 48px auto;
+  max-width: 496px;
+  padding-top: 188px;
   font-size: 56px;
   line-height: 1.07;
   letter-spacing: 0.02em;
@@ -138,13 +142,22 @@ h1, h2, h3, h4, h5, h6, p {
 }
 
 .btn {
+  display: block;
+  margin: 0 auto;
+  padding: 16px 32px;
   font-weight: 500;
-  background: #4d5ae5;
+  background-color: #4d5ae5;
   color: #ffffff;
   cursor: pointer;
   line-height: 1.5;
   letter-spacing: 0.04em;
+  min-width: 169px;
+  height: 56px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
 }
+
 .btn:hover,
 .btn:focus {
   background-color: #404bbf;
