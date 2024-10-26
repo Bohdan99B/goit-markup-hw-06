@@ -197,11 +197,10 @@ h1, h2, h3, h4, h5, h6, p {
 .section-work-list {
   display: flex;
   gap: 24px;
-  width: calc(100% - 72px) / 4;
 }
 
 .section-work-li {
-  
+  width: calc((100% - 72px)) / 4;
 }
 
 .work-text {
@@ -225,7 +224,7 @@ h1, h2, h3, h4, h5, h6, p {
 }
 
 .team-title-text {
-
+  padding: 32px 0;
 }
 
 .team-title {
@@ -252,6 +251,8 @@ h1, h2, h3, h4, h5, h6, p {
 
 .section-team-li {
   background-color: #ffffff;
+  width: calc((100% - 72px) / 4);
+  border-radius: 0px 0px 4px 4px;
 }
 
 .section-prt {
