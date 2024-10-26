@@ -163,6 +163,7 @@ h1, h2, h3, h4, h5, h6, p {
 }
 
 .section-work {
+  padding: 120px 0;
 }
 
 .section-work-title {
@@ -185,6 +186,7 @@ h1, h2, h3, h4, h5, h6, p {
 }
 
 .work-title {
+  margin-bottom: 8px;
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
@@ -193,9 +195,13 @@ h1, h2, h3, h4, h5, h6, p {
 }
 
 .section-work-list {
+  display: flex;
+  gap: 24px;
+  width: calc(100% - 72px) / 4;
 }
 
 .section-work-li {
+  
 }
 
 .work-text {
@@ -205,9 +211,11 @@ h1, h2, h3, h4, h5, h6, p {
 
 .section-team {
   background-color: #f4f4fd;
+  padding: 120px 0;
 }
 
 .section-team-title {
+  margin-bottom: 72px;
   line-height: 1.11;
   letter-spacing: 0.02em;
   font-size: 36px;
@@ -216,7 +224,13 @@ h1, h2, h3, h4, h5, h6, p {
   text-align: center;
 }
 
+.team-title-text {
+
+}
+
 .team-title {
+  text-align: center;
+  margin-bottom: 8px;
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
@@ -225,12 +239,15 @@ h1, h2, h3, h4, h5, h6, p {
 }
 
 .team-text {
+  text-align: center;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
 
 .section-team-list {
+  display: flex;
+  gap: 24px;
 }
 
 .section-team-li {
@@ -238,9 +255,11 @@ h1, h2, h3, h4, h5, h6, p {
 }
 
 .section-prt {
+  padding: 120px 0;
 }
 
 .section-prt-title {
+  margin-bottom: 72px;
   line-height: 1.11;
   letter-spacing: 0.02em;
   font-size: 36px;
@@ -250,12 +269,23 @@ h1, h2, h3, h4, h5, h6, p {
 }
 
 .section-prt-list {
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 24px;
+  row-gap: 48px;
 }
 
 .section-prt-li {
 }
 
+.prt-title-text {
+  padding: 32px 16px;
+  border: 1px solid #e7e9fc;
+  border-top: none;
+}
+
 .prt-title {
+  margin-bottom: 8px;
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
