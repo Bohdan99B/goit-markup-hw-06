@@ -12,6 +12,10 @@ a {
   text-decoration: none;
 }
 
+img {
+  display: block;
+}
+
 h1, h2, h3, h4, h5, h6, p {
     margin: 0;
 }
@@ -43,10 +47,6 @@ h1, h2, h3, h4, h5, h6, p {
   max-width: 1158px;
   padding: 0 15px;
   margin: 0 auto;
-}
-
-.img {
-    display: block;
 }
 
 .header-nav {
@@ -200,7 +200,7 @@ h1, h2, h3, h4, h5, h6, p {
 }
 
 .section-work-li {
-  width: calc((100% - 72px)) / 4;
+  width: calc((100% - 72px) / 4);
 }
 
 .work-text {
