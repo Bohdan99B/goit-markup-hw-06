@@ -16,18 +16,25 @@ img {
   display: block;
 }
 
-h1, h2, h3, h4, h5, h6, p {
-    margin: 0;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
 }
 
 .header {
-    border-bottom: 1px solid #e7e9fc;
-    box-shadow: 0 1px 6px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 2px 1px 0 rgba(46, 47, 66, 0.08);
+  border-bottom: 1px solid #e7e9fc;
+  box-shadow: 0 1px 6px 0 rgba(46, 47, 66, 0.08),
+    0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 2px 1px 0 rgba(46, 47, 66, 0.08);
 }
 
 .header-container {
-    display: flex;
-    align-items: center;
+  display: flex;
+  align-items: center;
 }
 
 .header-logo .logo-span {
@@ -35,13 +42,13 @@ h1, h2, h3, h4, h5, h6, p {
 }
 
 .header-logo {
-    padding: 24px 0;
-    margin-right: 76px;
+  padding: 24px 0;
+  margin-right: 76px;
 }
 
 .header-nav {
-    display: flex;
-    align-items: center;
+  display: flex;
+  align-items: center;
 }
 
 .container {
@@ -99,7 +106,7 @@ h1, h2, h3, h4, h5, h6, p {
 .nav-link:focus,
 .address-link:hover,
 .address-link:focus,
-.nav-link.current  {
+.nav-link.current {
   color: #404bbf;
 }
 
@@ -109,9 +116,9 @@ h1, h2, h3, h4, h5, h6, p {
 } */
 
 .nav-list {
-    display: flex;
-    align-items: center;
-    gap: 40px;
+  display: flex;
+  align-items: center;
+  gap: 40px;
 }
 
 .nav-list-li {
@@ -136,10 +143,10 @@ h1, h2, h3, h4, h5, h6, p {
 }
 
 .address-list {
-    padding: 24px 0;
-    gap: 40px;
-    display: flex;
-    align-items: center;
+  padding: 24px 0;
+  gap: 40px;
+  display: flex;
+  align-items: center;
 }
 
 .address-li {
@@ -151,7 +158,16 @@ h1, h2, h3, h4, h5, h6, p {
 
 .hero-image {
   background: #2e2f42;
-    padding: 188px 0;
+  padding: 188px 0;
+  background-image: linear-gradient(
+      rgba(46, 47, 66, 0.7),
+      rgba(46, 47, 66, 0.7)
+    ),
+    url(../images/peopleoffice.jpg);
+    max-width: 1440px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }
 
 .hero-title {
@@ -178,6 +194,7 @@ h1, h2, h3, h4, h5, h6, p {
   height: 56px;
   border: none;
   border-radius: 4px;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .btn:hover,
@@ -196,16 +213,16 @@ h1, h2, h3, h4, h5, h6, p {
   letter-spacing: 0.02em;
   color: #2e2f42;
   position: absolute;
-    width: 1px;
-    height: 1px;
-    margin: -1px;
-    border: 0;
-    padding: 0;
-  
-    white-space: nowrap;
-    clip-path: inset(100%);
-    clip: rect(0 0 0 0);
-    overflow: hidden;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
 }
 
 .work-title {
@@ -327,7 +344,7 @@ h1, h2, h3, h4, h5, h6, p {
   padding: 100px 0;
 }
 .footer-text {
-    max-width: 264px;
+  max-width: 264px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #f4f4fd;
