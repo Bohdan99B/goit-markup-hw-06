@@ -438,7 +438,6 @@ p {
   margin-right: 120px;
 }
 .footer-social-icon {
-  display: flex;
   align-items: baseline;
 }
 
@@ -483,4 +482,5 @@ p {
 
 .footer-container .container {
   display: flex;
+  align-items: baseline;
 }
