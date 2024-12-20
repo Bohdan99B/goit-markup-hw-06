@@ -480,3 +480,7 @@ p {
 .footer-item-icons {
   fill: #f4f4fd;
 }
+
+.footer-container .container {
+  display: flex;
+}
