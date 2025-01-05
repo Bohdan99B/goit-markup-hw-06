@@ -52,16 +52,34 @@
             </li>
           </ul>
         </address>
+
+        <button type="button" class="burger-btn" data-menu-open>
+          <svg class="burger-icon" height="24" width="24">
+            <use href="./images/icons.svg#icon-burger"></use>
+          </svg>
+        </button>
+      </div>
+
+      <div class="mobile-menu" data-menu>
+        <div class="container mobile-menu-container">
+        <button type="button" class="mobile-menu-close" data-menu-close>
+          <svg class="btn-close" width="8" height="8">
+            <use href="./images/icons.svg#icon-close"></use>
+          </svg>
+        </button>
+        </div>
       </div>
     </header>
     <main>
-      <section class="hero-image">
+      <section class="hero-image hidden">
         <div class="container hero-container">
           <h1 class="hero-title">Effective Solutions for Your Business</h1>
-          <button type="button" class="btn" data-modal-open>Order Service</button>
+          <button type="button" class="btn" data-modal-open>
+            Order Service
+          </button>
         </div>
       </section>
-      <section class="section-work">
+      <section class="section-work hidden">
         <div class="container work-container">
           <h2 class="section-work-title">Our work principles</h2>
           <ul class="section-work-list">
@@ -116,7 +134,7 @@
           </ul>
         </div>
       </section>
-      <section class="section-team">
+      <section class="section-team hidden">
         <div class="container team-container">
           <h2 class="section-team-title">Our Team</h2>
           <ul class="section-team-list">
@@ -291,7 +309,7 @@
           </ul>
         </div>
       </section>
-      <section class="section-prt">
+      <section class="section-prt hidden">
         <div class="container section-container">
           <h2 class="section-prt-title">Our Portfolio</h2>
           <ul class="section-prt-list">
@@ -413,7 +431,7 @@
         </div>
       </section>
     </main>
-    <footer class="footer footer-container">
+    <footer class="footer footer-container hidden">
       <div class="container">
         <div class="footer-logotext">
           <a class="logo footer-logo" href="./index.html"
@@ -462,7 +480,7 @@
           <form class="subscribe-form">
             <label for="email-subscribe" class="subscribe-label">
               <input
-              id="email-subscribe"
+                id="email-subscribe"
                 name="email-subscribe"
                 type="email"
                 class="subcribe-input"
@@ -479,7 +497,7 @@
       </div>
     </footer>
 
-    <div class="backdrop" data-modal>
+    <div class="backdrop hidden" data-modal>
       <div class="modal">
         <button type="button" class="modal-btn" data-modal-close>
           <svg class="btn-close" width="8" height="8">
@@ -562,5 +580,6 @@
     </div>
 
     <script src="./js/modal.js"></script>
+    <script src="./js/menu.js"></script>
   </body>
 </html>
