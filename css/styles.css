@@ -165,6 +165,7 @@ p {
     ),
     url(../images/peopleoffice.jpg);
   max-width: 1440px;
+  margin: 0 auto;
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
