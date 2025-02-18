@@ -708,10 +708,6 @@ section {
   letter-spacing: 0.02em;
 }
 
-.hiddendiv {
-  display: none;
-}
-
 .hiddentext {
   display: none;
 }
@@ -747,7 +743,6 @@ section {
   }
 
   .hiddendiv {
-    display: unset;
     position: relative;
     overflow: hidden;
   }
@@ -772,3 +767,7 @@ section {
     transform: translateY(0%);
   }
 }
+
+/* Footer */
+
+
