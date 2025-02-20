@@ -280,14 +280,12 @@ footer {
 }
 
 .nav-link-mobile {
+  font-weight: 700;
   font-size: 36px;
   line-height: 111%;
   letter-spacing: 0.02em;
 }
 
-.mob-menu-studio {
-  max-width: 121px;
-}
 
 .nav-list-mobile {
   display: flex;
@@ -379,7 +377,7 @@ footer {
 }
 
 .hero-title {
-  margin: 72px auto;
+  margin: 0 auto;
   max-width: 216px;
   font-weight: 700;
   font-size: 36px;
@@ -391,7 +389,7 @@ footer {
 
 .btn {
   display: block;
-  margin: 0 auto;
+  margin: 72px auto 0 auto;
   padding: 16px 32px;
   font-weight: 500;
   background-color: #4d5ae5;
@@ -420,11 +418,14 @@ footer {
   }
 
   .hero-title {
-    margin: 36px auto;
     max-width: 496px;
     font-weight: 700;
     font-size: 56px;
     line-height: 107%;
+  }
+
+  .btn {
+    margin: 36px auto 0 auto;
   }
 }
 
@@ -440,8 +441,11 @@ footer {
   }
 
   .hero-title {
-    margin: 48px auto;
     font-size: 56px;
+  }
+
+  .btn {
+    margin: 48px auto 0 auto;
   }
 
   .btn:hover,
@@ -477,6 +481,7 @@ footer {
 
 .work-title {
   margin-bottom: 8px;
+  text-align: center;
   font-weight: 700;
   font-size: 36px;
   line-height: 111%;
